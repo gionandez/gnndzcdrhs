@@ -168,20 +168,3 @@ main{
         }
     }
 }
-footer{
-    background: black;
-    padding: 20px 0px;
-    font-family: 'Abel', sans-serif;
-    text-align: center;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    .social{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 10px;
-        li{
-            padding: 0px 5px;
-        }
-    }
-}

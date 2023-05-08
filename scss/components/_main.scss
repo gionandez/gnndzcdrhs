@@ -1,0 +1,187 @@
+.slider{
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.3);
+    background-image: url("../images/img-slider.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    .text-slider{
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        color: white;
+        h1{
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-size: 2em;
+            font-weight: 400;
+            margin-bottom: 50px;
+        }
+        h4{
+            max-width: 150px;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            letter-spacing: 5px;
+            font-weight: 500;
+            background-color: #DFFF00;
+            padding: 5px 20px;
+            border-radius: 5px;
+            color: black;
+            margin: 0 auto 10px auto;
+        }
+        a{
+            background-color: white;
+            color: black;
+            padding: 10px 30px;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-weight: 700;
+            &:hover{
+                background: #DFFF00;
+            }
+        }   
+    }
+}
+main{
+    background-color: white;
+}
+.reel{
+    background: #DFFF00;
+    padding: 80px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    h2{
+        font-size: 2.5em;
+        color: black;
+        margin-bottom: 40px;
+    }
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    p{
+        font-size: 1em;
+        margin-bottom: 40px;
+    }
+    a{
+        width: 100%;
+        background-color: #DFFF00;
+        color: black;
+        text-align: center;
+        padding: 10px 30px;
+    }
+    img{
+        width: 100px;
+        margin-bottom: 20px;
+        background: #DFFF00;
+        padding: 30px;
+        border-radius: 40px;
+    }
+    .design{
+        width: 200px;
+    }
+    .illustration{
+        width: 200px;
+    }
+    .web{
+        width: 200px;
+    }
+}
+
+.content{
+    padding-top: 30px;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    h2{
+        font-size: 2em;
+        color: black;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    p{
+        margin: 0px 20px 0px 20px;
+        text-align: justify;
+        padding: 20px;
+    }
+    form{
+        width: 500px;
+        margin: 0 auto 40px auto;
+        font-family: 'Inter', sans-serif;
+        .campo{
+            margin-bottom: 20px;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input,textarea{
+            width: 97%;
+            padding: 7px;
+        }
+        .enviar{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            &:hover{
+                background-color: white;
+                border: 1 px solid black;
+                color: black;
+            }
+        }
+    }
+}
+
+.info{
+    padding-bottom: 40px;
+}
+
+.title{
+    background: rgb(99,99,99);
+    background: linear-gradient(-180deg, rgba(99,99,99,1) 0%, rgba(29,29,29,1) 100%);
+    padding: 80px;
+    color: white;text-align: center;
+    font-family: 'Inter', sans-serif;
+    h2{
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    p{
+        a{
+            text-decoration: none;
+            color: #DFFF00;
+        }
+    }
+}
+footer{
+    background: black;
+    padding: 20px 0px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10px;
+        li{
+            padding: 0px 5px;
+        }
+    }
+}

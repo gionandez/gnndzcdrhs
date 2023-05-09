@@ -1,0 +1,17 @@
+//* variable
+$color-principal:black;
+$color-secundario:rgb(255,230,0);
+
+//*LISTAS
+$colores: red, green, blue, tomato,pink, gray,black;
+
+$font-size:
+12px,
+16px,
+20px,
+30px;
+
+h1{
+    font-size: nth($font-size , 4 );
+    color: nth($colores, 7 );
+}

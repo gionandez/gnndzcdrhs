@@ -36,4 +36,13 @@
             }
         }
     }
+    .content{
+        flex-direction: column;
+        .item-content{
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
 }

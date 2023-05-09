@@ -14,6 +14,10 @@ h1 {
   font-size: 30px;
   color: black; }
 
+.bot {
+  background-color: black;
+  border: 2px solid tomato; }
+
 header {
   background-color: #212529; }
   header nav {
@@ -158,24 +162,29 @@ main {
       text-align: justify; }
     .content .item-content img {
       max-width: 600px; }
-  .content form {
+
+.content2 {
+  width: 100%;
+  height: auto;
+  padding: 40px 20px; }
+  .content2 form {
     width: 500px;
     margin: 0 auto 40px auto;
     font-family: 'Inter', sans-serif; }
-    .content form .campo {
+    .content2 form .campo {
       margin-bottom: 20px; }
-    .content form label {
+    .content2 form label {
       display: block;
       margin-bottom: 10px; }
-    .content form input, .content form textarea {
+    .content2 form input, .content2 form textarea {
       width: 97%;
       padding: 7px; }
-    .content form .enviar {
+    .content2 form .enviar {
       background-color: black;
       color: white;
       padding: 10px;
       width: 100%; }
-      .content form .enviar:hover {
+      .content2 form .enviar:hover {
         background-color: white;
         border: 1 px solid black;
         color: black; }

@@ -15,3 +15,19 @@ h1{
     font-size: nth($font-size , 4 );
     color: nth($colores, 7 );
 }
+
+//*MAPAS
+
+$boton: (
+    //key:value,
+    //Key es un nombre referencial que le damos a la propiedad aplicar
+    //Value es el valor
+    bg-boton:black,
+    border-boton:2px solid tomato,
+    color-text: white,
+);
+
+.bot{
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boton, border-boton );
+}

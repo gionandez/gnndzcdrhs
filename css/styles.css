@@ -71,7 +71,7 @@ footer {
       font-weight: 400;
       margin-bottom: 50px; }
     .slider .text-slider h4 {
-      max-width: 150px;
+      max-width: 200px;
       text-transform: uppercase;
       font-size: 1.2em;
       letter-spacing: 5px;
@@ -135,7 +135,8 @@ main {
     width: 200px; }
 
 .content {
-  padding-top: 30px;
+  padding: 20px 30px;
+  margin: 20px 0px;
   height: auto;
   font-family: 'Inter', sans-serif; }
   .content h2 {
@@ -145,9 +146,8 @@ main {
     text-align: center;
     margin-bottom: 50px; }
   .content p {
-    margin: 0px 20px 0px 20px;
-    text-align: justify;
-    padding: 20px; }
+    margin: 20px 0px;
+    text-align: justify; }
   .content form {
     width: 500px;
     margin: 0 auto 40px auto;
@@ -186,3 +186,28 @@ main {
   .title p a {
     text-decoration: none;
     color: #DFFF00; }
+
+@media screen and (max-width: 600px) {
+  header .d-flex {
+    width: 100%; }
+  header .contact {
+    margin: 0 auto; }
+  .portfolio {
+    flex-direction: column;
+    align-items: center; }
+  .portfolio .item {
+    margin: 20px 0px;
+    width: 100%; }
+  .portfolio .item img {
+    width: 130px;
+    padding: 30px;
+    border-radius: 63px; }
+  .portfolio .item p {
+    width: 70%;
+    margin: 0 auto 20px auto; }
+  .portfolio .item a {
+    margin-top: 20px;
+    text-decoration: none; }
+  .reel .video iframe {
+    width: 100%;
+    height: 300px; } }

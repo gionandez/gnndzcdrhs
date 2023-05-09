@@ -209,6 +209,10 @@ main {
     text-decoration: none;
     color: #DFFF00; }
 
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
 @media screen and (max-width: 600px) {
   header .d-flex {
     width: 100%; }

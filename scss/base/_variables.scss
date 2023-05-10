@@ -31,3 +31,60 @@ $boton: (
     background-color: map-get($boton, bg-boton);
     border: map-get($boton, border-boton );
 }
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    background-color: red;
+    border: 2px solid aqua;
+    @extend %flex;
+}
+.gallery2{
+    background-color: blue;
+    border: 2px solid rgb(19,104,81);
+    @extend %flex;
+}
+
+//*MIXINS
+
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.contenedor{
+    @include flex(flex, space-between,center)
+}
+.contendor2{
+    @include flex(flex,space-around,center)
+}
+
+//*CONDICIONAL
+//OPERACIONES COMPARACION
+// = Asignacion
+// == Son iguales
+
+@mixin modos ($darkmode){
+    @if $darkmode == black{
+        border: 2px solid blueviolet;
+    }@else{
+        border: 2px solid aqua;
+    }
+}
+
+.bg-condicion{
+    @include modos(black)
+}
+
+//BUCLES
+
+@for $i from 1 through 6{
+    .titulo-#{$i}{
+        font-size: 24em /$i;
+    }
+}

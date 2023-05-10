@@ -18,6 +18,50 @@ h1 {
   background-color: black;
   border: 2px solid tomato; }
 
+.gallery, .gallery2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gallery {
+  background-color: red;
+  border: 2px solid aqua; }
+
+.gallery2 {
+  background-color: blue;
+  border: 2px solid #136851; }
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.contendor2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.bg-condicion {
+  border: 2px solid blueviolet; }
+
+.titulo-1 {
+  font-size: 24em; }
+
+.titulo-2 {
+  font-size: 12em; }
+
+.titulo-3 {
+  font-size: 8em; }
+
+.titulo-4 {
+  font-size: 6em; }
+
+.titulo-5 {
+  font-size: 4.8em; }
+
+.titulo-6 {
+  font-size: 4em; }
+
 header {
   background-color: #212529; }
   header nav {
@@ -73,7 +117,8 @@ footer {
     color: white; }
     .slider .text-slider h1 {
       font-size: 4em;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      color: white; }
     .slider .text-slider h3 {
       font-size: 2em;
       font-weight: 400;

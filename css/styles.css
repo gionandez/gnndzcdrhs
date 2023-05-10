@@ -119,11 +119,11 @@ footer {
       font-size: 4em;
       margin-bottom: 10px;
       color: white; }
-    .slider .text-slider h3 {
+    .slider .text-slider h2 {
       font-size: 2em;
       font-weight: 400;
-      margin-bottom: 50px; }
-    .slider .text-slider h4 {
+      margin-bottom: 30px; }
+    .slider .text-slider span {
       max-width: 200px;
       text-transform: uppercase;
       font-size: 1.2em;
@@ -133,7 +133,7 @@ footer {
       padding: 5px 20px;
       border-radius: 5px;
       color: black;
-      margin: 0 auto 10px auto; }
+      margin: 0 auto 20px auto; }
     .slider .text-slider a {
       background-color: white;
       color: black;

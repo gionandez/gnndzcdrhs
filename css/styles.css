@@ -10,6 +10,11 @@ ul {
 a {
   text-decoration: none; }
 
+body {
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh; }
+
 h1 {
   font-size: 30px;
   color: black; }
@@ -88,7 +93,10 @@ footer {
   padding: 20px 0px;
   text-align: center;
   color: white;
-  font-family: 'Inter', sans-serif; }
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
   footer .social {
     display: flex;
     flex-direction: row;

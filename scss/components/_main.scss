@@ -17,12 +17,12 @@
         margin: auto;
         color: white;
         h1{
-            font-size: 4em;
+            font-size: nth($tamanios,1);
             margin-bottom: 10px;
             color: white;
         }
         h2{
-            font-size: 2em;
+            font-size: nth($tamanios,2);
             font-weight: 400;
             margin-bottom: 30px;
         }
@@ -32,7 +32,7 @@
             font-size: 1.2em;
             letter-spacing: 5px;
             font-weight: 500;
-            background-color: #DFFF00;
+            background-color: $color-secundario;
             padding: 5px 20px;
             border-radius: 5px;
             color: black;
@@ -46,7 +46,7 @@
             margin-top: 30px;
             font-weight: 700;
             &:hover{
-                background: #DFFF00;
+                background: $color-secundario;
             }
         }   
     }
@@ -55,7 +55,7 @@ main{
     background-color: white;
 }
 .reel{
-    background: #DFFF00;
+    background: $color-secundario;
     padding: 80px;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -75,20 +75,20 @@ main{
     text-align: center;
     font-family: 'Inter', sans-serif;
     p{
-        font-size: 1em;
+        font-size: nth($tamanios,3);
         margin-bottom: 40px;
     }
     a{
         width: 100%;
-        background-color: #DFFF00;
+        background-color: $color-secundario;
         color: black;
         text-align: center;
         padding: 10px 30px;
     }
     img{
-        width: 100px;
+        width: 120px;
         margin-bottom: 20px;
-        background: #DFFF00;
+        background: $color-secundario;
         padding: 30px;
         border-radius: 40px;
     }
@@ -195,7 +195,7 @@ main{
     p{
         a{
             text-decoration: none;
-            color: #DFFF00;
+            color: $color-secundario;
         }
     }
 }

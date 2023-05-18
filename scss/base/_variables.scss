@@ -1,90 +1,16 @@
-//* variable
-$color-principal:black;
-$color-secundario:rgb(255,230,0);
+//* Colores principales
+$color-principal:#212529;
+$color-secundario:#DFFF00;
 
-//*LISTAS
-$colores: red, green, blue, tomato,pink, gray,black;
+//* Tamaño fuentes
 
-$font-size:
-12px,
-16px,
-20px,
-30px;
+$fuentes:
+'Inter', sans-serif,
+'Damion', cursive;
+;
 
-h1{
-    font-size: nth($font-size , 4 );
-    color: nth($colores, 7 );
-}
-
-//*MAPAS
-
-$boton: (
-    //key:value,
-    //Key es un nombre referencial que le damos a la propiedad aplicar
-    //Value es el valor
-    bg-boton:black,
-    border-boton:2px solid tomato,
-    color-text: white,
-);
-
-.bot{
-    background-color: map-get($boton, bg-boton);
-    border: map-get($boton, border-boton );
-}
-
-%flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.gallery{
-    background-color: red;
-    border: 2px solid aqua;
-    @extend %flex;
-}
-.gallery2{
-    background-color: blue;
-    border: 2px solid rgb(19,104,81);
-    @extend %flex;
-}
-
-//*MIXINS
-
-
-@mixin flex ($flex, $justify, $align){
-    display: $flex;
-    justify-content: $justify;
-    align-items: $align;
-}
-
-.contenedor{
-    @include flex(flex, space-between,center)
-}
-.contendor2{
-    @include flex(flex,space-around,center)
-}
-
-//*CONDICIONAL
-//OPERACIONES COMPARACION
-// = Asignacion
-// == Son iguales
-
-@mixin modos ($darkmode){
-    @if $darkmode == black{
-        border: 2px solid blueviolet;
-    }@else{
-        border: 2px solid aqua;
-    }
-}
-
-.bg-condicion{
-    @include modos(black)
-}
-
-//BUCLES
-
-@for $i from 1 through 6{
-    .titulo-#{$i}{
-        font-size: 24em /$i;
-    }
-}
+$tamanios:
+4em,
+2em,
+1em
+;

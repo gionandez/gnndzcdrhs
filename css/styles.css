@@ -96,9 +96,11 @@ footer {
       padding: 10px 30px;
       border-radius: 5px;
       margin-top: 30px;
-      font-weight: 700; }
+      font-weight: 700;
+      transition: 0.5s; }
       .slider .text-slider a:hover {
-        background: #DFFF00; }
+        background: #DFFF00;
+        color: #000000; }
 
 main {
   background-color: white; }
@@ -129,7 +131,13 @@ main {
     background-color: #DFFF00;
     color: black;
     text-align: center;
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px; }
+    .portfolio a:hover {
+      background-color: #000000;
+      color: #DFFF00;
+      transition: 0.5s; }
   .portfolio img {
     width: 120px;
     margin-bottom: 20px;

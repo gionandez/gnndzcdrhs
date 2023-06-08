@@ -49,3 +49,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 992) {
+    .navbar{
+        flex-direction: column;
+    }
+}

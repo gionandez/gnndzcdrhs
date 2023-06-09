@@ -48,6 +48,13 @@
     .galeria{
         grid-template-columns: 1fr;
     }
+    .slider{
+        .text-slider{
+            h2{
+                padding: 0px 10px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 992) {

@@ -98,7 +98,8 @@ footer {
       border-radius: 5px;
       margin-top: 30px;
       font-weight: 700;
-      transition: 1s; }
+      transition: 1s;
+      text-decoration: none; }
       .slider .text-slider a:hover {
         background: #DFFF00;
         color: #000000; }
@@ -250,6 +251,9 @@ main {
   gap: 1em;
   padding: 20px; }
 
+.list-disenio {
+  list-style-type: circle; }
+
 @media screen and (max-width: 600px) {
   header .d-flex {
     width: 100%; }
@@ -280,7 +284,9 @@ main {
       width: 100%;
       height: auto; }
   .galeria {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .slider .text-slider h2 {
+    padding: 0px 10px; } }
 
 @media screen and (max-width: 992) {
   .navbar {

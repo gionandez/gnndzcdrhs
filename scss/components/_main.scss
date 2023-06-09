@@ -49,6 +49,7 @@
             margin-top: 30px;
             font-weight: 700;
             transition: 1s;
+            text-decoration:none;
             &:hover{
                 background: $color-secundario;
                 color: #000000;
@@ -232,4 +233,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     gap:1em;
     padding: 20px;
+}
+.list-disenio{
+    list-style-type: circle;
 }
